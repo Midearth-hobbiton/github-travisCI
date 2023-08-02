@@ -1,8 +1,8 @@
-language: python
+language: bash
 
 # command to install dependencies
 # install:
 #   - pip install -r requirements.txt
 # command to run tests
 script:
-  - python3 test.py
+  - bash masking.sh
